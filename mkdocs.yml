@@ -1,9 +1,10 @@
-site_name: EmptyCup
-site_url: https://emptycup3d.com/
+site_name: EmptyCup 3D
+site_url: https://learn.emptycup3d.com/
 
 
 theme:
   name: material
+  logo: ecbw.png
   palette:
     - scheme: default
       toggle:
@@ -13,3 +14,30 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
+  features:
+    - navigation.instant
+  #   - navigation.tabs
+  #   - navigation.tabs.sticky
+  #   - navigation.tracking
+
+
+nav:
+  - Drawing floorplan: floorplan.md
+  - Placing furniture: furniture.md
+  - Changing materials: materials.md
+  - Creating woodwork: woodworks.md
+  - Rendering: renders.md
+  - Exporting: exports.md
+
+copyright: Copyright &copy 2020 - 2022 EmptyCup Innovation Private Limited
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/instagram
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/medium
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/github
+      link: https://twitter.com/squidfunk
